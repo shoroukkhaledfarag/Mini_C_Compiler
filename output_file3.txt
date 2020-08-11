@@ -1,0 +1,31 @@
+ 	 MOV R0, 3.220000029 
+	 ST   x , R0 
+
+ 	 MOV R1, 324.5639954 
+	 ST   y , R1 
+
+ 	 LD R2, x 
+	 LD R3, y 
+	 ADD R3, R2
+	 ST   x , R3 
+
+ 	 LD R4, x 
+	 LD R5, y 
+	 SUB R4, R5 
+	 ST   y , R5 
+
+ 	 LD R6, y 
+	 MOV R7, 324.25 
+	 ADD R7, R6
+	 ST   x , R7 
+
+ 	 LD R8, y 
+	 MOV R9, 1.353000045 
+	 MUL R8, R9
+	 ST   f , R9 
+
+ 	 LD R10, f 
+	 MOV R11, 52.40000153 
+	 DIV R10, R11 
+	 ST   g , R11 
+

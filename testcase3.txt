@@ -1,0 +1,8 @@
+float x=3.22;
+float y=324.564;
+x=x+y;
+y=x-y;
+x=y+324.25;
+float f=y*1.353;
+float g=f/52.4;
+exit

@@ -1,0 +1,13 @@
+int b=2;
+int a=3;
+int w=a+b;
+b=a+b;
+int e;
+e=4+8;
+e=b-a;
+e=9-1;
+string _string123_value="shorouk";
+string sting_v2_val="farrah";
+string vvv_1=sting_v2_val+"khaled";
+vvv_1=sting_v2_val+_string123_value;
+exit

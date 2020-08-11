@@ -1,0 +1,5 @@
+showing symbol table 
+[ 0 - Name  x| Class 1 | init 1 ] 
+[ 1 - Name  y| Class 1 | init 1 ] 
+[ 2 - Name  f| Class 1 | init 1 ] 
+[ 3 - Name  g| Class 1 | init 1 ] 

@@ -1,0 +1,49 @@
+ 	 MOV R0, 2 
+	 ST   b , R0 
+
+ 	 MOV R1, 3 
+	 ST   a , R1 
+
+ 	 LD R2, a 
+	 LD R3, b 
+	 ADD R3, R2
+	 ST   w , R3 
+
+ 	 LD R4, a 
+	 LD R5, b 
+	 ADD R5, R4
+	 ST   b , R5 
+
+ 	 ST  e , NULL  
+
+ 	 MOV R6, 4 
+	 MOV R7, 8 
+	 ADD R7, R6
+	 ST   e , R7 
+
+ 	 LD R8, b 
+	 LD R9, a 
+	 SUB R8, R9 
+	 ST   e , R9 
+
+ 	 MOV R10, 9 
+	 MOV R11, 1 
+	 SUB R10, R11 
+	 ST   e , R11 
+
+ 	 MOV R12, shorouk 
+	 ST   _string123_value , R12 
+
+ 	 MOV R13, farrah 
+	 ST   sting_v2_val , R13 
+
+ 	 LD R14, sting_v2_val 
+	 MOV R15, khaled 
+	 ADD R15, R14
+	 ST   vvv_1 , R15 
+
+ 	 LD R16, sting_v2_val 
+	 LD R17, _string123_value 
+	 ADD R17, R16
+	 ST   vvv_1 , R17 
+

@@ -1,0 +1,36 @@
+ 	 MOV R0, 2 
+	 ST   b_value , R0 
+
+ 	 MOV R1, 3 
+	 ST   aValue_1 , R1 
+
+ 	 LD R2, aValue_1 
+	 LD R3, b_value 
+	 ADD R3, R2
+	 ST   answer , R3 
+
+ 	 LD R4, aValue_1 
+	 LD R5, b_value 
+	 ADD R5, R4
+	 ST   b_value , R5 
+
+ 	 MOV R6, false 
+	 ST   bool_v1 , R6 
+
+ 	 MOV R7, true 
+	 ST   bool_v1 , R7 
+
+ 	 MOV R8, w 
+	 ST   char_value_1 , R8 
+
+ 	 MOV R9, p 
+	 ST   char_value_1 , R9 
+
+ 	 MOV R10, 23.25449944 
+	 ST   v_float , R10 
+
+ Error: type clash assigning wrong class to int 
+ Error: type clash assigning wrong class to char 
+ Error: type clash assigning wrong class to float 
+ Error: type clash assigning wrong class to String 
+Error -> Identifier not found

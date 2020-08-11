@@ -1,0 +1,11 @@
+showing symbol table 
+[ 0 - Name  v_float| Class 1 | init 1 ] 
+[ 1 - Name  aValue_1| Class 0 | init 1 ] 
+[ 2 - Name  not_float| Class 1 | init 0 ] 
+[ 3 - Name  answer| Class 0 | init 1 ] 
+[ 4 - Name  not_int| Class 0 | init 0 ] 
+[ 5 - Name  char_value_1| Class 2 | init 1 ] 
+[ 6 - Name  not_string| Class 3 | init 0 ] 
+[ 7 - Name  bool_v1| Class 4 | init 1 ] 
+[ 8 - Name  b_value| Class 0 | init 1 ] 
+[ 9 - Name  not_char| Class 2 | init 0 ] 

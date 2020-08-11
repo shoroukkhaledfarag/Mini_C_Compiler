@@ -1,0 +1,15 @@
+int b_value=2;
+int aValue_1=3;
+int answer=aValue_1+b_value;
+b_value=aValue_1+b_value;
+boolean bool_v1=false;
+bool_v1=true;
+char char_value_1='w';
+char_value_1='p';
+float v_float=23.2545;
+int not_int=123.45;
+char not_char="sv";
+float not_float=2;
+string not_string=43;
+nti fff=1;
+exit
